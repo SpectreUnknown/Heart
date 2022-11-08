@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <style class="text/css">
+       
+       
+       
+       body{
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2b333d;
+        }
+     
+    
+        .heart{
+          width: 70px; 
+          height: 70px; 
+          background: #f20044;
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          transform: rotate(-45deg);
+          animation: yur 0.5s linear infinite ;
+          box-shadow: 10px 10px 90px #f20044;
+
+        }
+        @keyframes yur{
+            0%{
+                transform: rotate(-45deg)  scale(2.8);
+            }
+            50%{
+                transform: rotate(-45deg)  scale(1.0);
+            }
+            100%{
+                transform: rotate(-45deg)  scale(0.7);
+            }
+        }
+        .heart::before{
+           content: ''; 
+           position: absolute;
+           top: -50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+        }
+        .heart::after{
+            content: ''; 
+           position: absolute;
+           right:-50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+        }
+    
+
+
+
+
+        .broken{
+          width: 70px; 
+          height: 70px; 
+          background: #f20044;
+          position: relative;
+          transform: rotate(-45deg);
+          animation: yur 0.9s linear infinite ;
+          box-shadow: 10px 10px 90px #f20044;
+
+        }
+        @keyframes yur{
+            0%{
+                transform: rotate(-45deg)  scale(2.8);
+            }
+            50%{
+                transform: rotate(-45deg)  scale(1.0);
+            }
+            100%{
+                transform: rotate(-45deg)  scale(0.7);
+            }
+        }
+        .broken::before{
+           content: ''; 
+           position: absolute;
+           top: -50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+          justify-content: start;
+          align-items: center;
+        }
+        .broken::after{
+            content: ''; 
+           position: absolute;
+           right:-50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+          justify-content: start;
+          
+        }
+        
+        .rose{
+          width: 70px; 
+          height: 70px; 
+          background: #f20044;
+          position: absolute;
+          bottom: 10%;
+          right: 10%;
+          transform: rotate(-45deg);
+          animation: yur 0.5s linear infinite ;
+          box-shadow: 10px 10px 90px #f20044;
+
+        }
+        @keyframes yur{
+            0%{
+                transform: rotate(-45deg)  scale(2.8);
+            }
+            50%{
+                transform: rotate(-45deg)  scale(1.0);
+            }
+            100%{
+                transform: rotate(-45deg)  scale(0.7);
+            }
+        }
+        .rose::before{
+           content: ''; 
+           position: absolute;
+           top: -50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+          justify-content: start;
+          align-items: center;
+        }
+        .rose::after{
+            content: ''; 
+           position: absolute;
+           right:-50%;
+          width: 70px;
+          height: 70px;
+          background: #f20044;
+          border-radius: 50%;
+          box-shadow: 10px 10px 80px #f20044;
+          justify-content: start;
+          
+        }
+        h1{
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+
+    </div>
+
+
+<div class="rose"></div>
+
+
+
+<h1>Yuksalish</h1>
+</body>
+</html>
